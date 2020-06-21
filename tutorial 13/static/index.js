@@ -18,3 +18,12 @@ heading_3.addEventListener('click', function (e) {
   console.log(e)
 })
 
+
+// event listner on forms
+let form_button = document.getElementById('btn')
+form_button.addEventListener('click' , fun1);
+
+function fun1(e)
+{
+  console.log('i was pressed')
+}

@@ -38,7 +38,6 @@ element.replaceWith(element_2)
 
 
 
-
 //////////////////////////////// Removing Element ////////////////////////////////
 let element_3 = document.getElementById('myul')
 element_3.removeChild(document.getElementById('child_2'))
